@@ -6,6 +6,7 @@
    #Change this to the log file name and location that you set your Valheim server to generate to. 
    $InitialLength = (Get-Content C:\Valheim\logs\log.txt).Length
    $counter = 1
+   $ErrorActionPreference = "SilentlyContinue"
 
 #Change this to the log file name and location that you set your Valheim server to generate to. 
 Get-Content C:\Valheim\logs\log.txt -wait | ForEach-Object { 
