@@ -15,7 +15,6 @@ $counter++
 If ($_ -match 'Got Character ZDOID') { 
     
 $parse = $_.Split(" ")
-        # Launch your program here
         $PlayerName = $parse[6]
         $PlayerID =  $parse[8]
 
